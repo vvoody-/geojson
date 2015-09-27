@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://jmikola.github.io/geojson/sitemap.xml
