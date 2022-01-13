@@ -61,6 +61,7 @@ abstract class GeoJson implements \JsonSerializable, JsonUnserializable
     /**
      * @see http://php.net/manual/en/jsonserializable.jsonserialize.php
      */
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         $json = array('type' => $this->type);

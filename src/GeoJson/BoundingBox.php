@@ -62,6 +62,7 @@ class BoundingBox implements \JsonSerializable, JsonUnserializable
     /**
      * @see http://php.net/manual/en/jsonserializable.jsonserialize.php
      */
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->bounds;

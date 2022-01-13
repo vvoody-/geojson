@@ -46,6 +46,7 @@ abstract class CoordinateReferenceSystem implements \JsonSerializable, JsonUnser
     /**
      * @see http://php.net/manual/en/jsonserializable.jsonserialize.php
      */
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return array(
